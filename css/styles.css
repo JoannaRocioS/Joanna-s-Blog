@@ -1,5 +1,8 @@
 *{padding: 0; margin: 0; box-sizing: border-box;}
-body{height: 900px;}
+body {
+    height: 900px;
+}
+
 header {
 	background: url('http://www.autodatz.com/wp-content/uploads/2017/05/Old-Car-Wallpapers-Hd-36-with-Old-Car-Wallpapers-Hd.jpg');
 	text-align: center;
@@ -11,14 +14,14 @@ header {
 	overflow: hidden;
 	border-radius: 0 0 85% 85% / 30%;
 }
-header .overlay{
+
+header .overlay {
 	width: 100%;
 	height: 100%;
 	padding: 50px;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #333;
-  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);
-	
+  background-image: linear-gradient( 135deg, #9f05ff69 10%, #fd5e086b 100%);	
 }
 
 h1 {
@@ -44,4 +47,19 @@ button {
 }
 button:hover{
 	cursor: pointer;
+}
+
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-body {
+    background: url('https://www.vectorizados.com/muestras/fondo-floreado-verde.jpg')
+}
+
+.main-footer {
+    margin-top: 40px;
+    margin-left: 170px;
 }
